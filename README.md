@@ -1,5 +1,16 @@
 # ComputerGraphicsProject
 
+Body motion based drone teleoperation using virtual reality is a method of controlling a drone using body movements while wearing a virtual reality headset. This technology allows the user to experience the drone's flight from a first-person perspective and control its movement by physically moving their body.
+
+The basic concept involves mapping the user's body movements to corresponding drone controls. For example, leaning forward might cause the drone to move forward, while tilting to the left or right might cause it to turn in that direction. The user's body movements are captured by sensors, such as cameras or motion sensors, and translated into commands that are sent to the drone.
+
+Virtual reality technology is used to provide the user with a realistic immersive experience. The headset displays a live video feed from the drone's camera, allowing the user to see what the drone sees and feel like they are actually flying the drone. This creates a highly intuitive and immersive interface for controlling the drone.
+
+Body motion based drone teleoperation using virtual reality has numerous applications, including aerial photography, search and rescue, and inspection of hard-to-reach areas. It allows for more precise control of the drone and can be used in situations where traditional remote control methods are not feasible.
+
+Overall, this technology represents a significant advancement in drone control and has the potential to revolutionize the way drones are used in a variety of industries.
+
+********
 The primary goal of the project would be to create a system that allows a user to control a drone using a virtual reality headset. Here are some of the essential steps involved in such a project:
 
 Hardware selection: The first step in any project involving drones is to select the hardware. For this project, you'll need a drone with a camera and a virtual reality headset.
