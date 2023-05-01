@@ -1,4 +1,4 @@
-# ComputerGraphicsProject
+# VRdrone - ComputerGraphicsProject
 
 Body motion based drone teleoperation using virtual reality is a method of controlling a drone using body movements while wearing a virtual reality headset. This technology allows the user to experience the drone's flight from a first-person perspective and control its movement by physically moving their body.
 
