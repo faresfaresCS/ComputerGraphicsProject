@@ -24,3 +24,7 @@ Testing: After you have a working prototype, you'll need to test the system to e
 Refinement and optimization: Finally, once you have a working prototype, you can refine and optimize the system to make it more efficient, effective, and user-friendly. This may involve tweaking the software, modifying the hardware, or changing the user interface based on feedback from users.
 
 Overall, a VR headset drone interface project could be an exciting and rewarding project for someone interested in drone technology, virtual reality, and software development.
+
+# LOG
+16 May: Deploy app on headseat for first time. Had some errors.
+
