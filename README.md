@@ -27,4 +27,7 @@ Overall, a VR headset drone interface project could be an exciting and rewarding
 
 # LOG
 16 May: Deploy app on headseat for first time. Had some errors.
+Installing different Unity version 2020.3.16
+
+
 
