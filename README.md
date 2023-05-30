@@ -32,6 +32,8 @@ Installing different Unity version 2020.3.16
 
 Try running windows 11 on VM 
 
+23 May: SICK + STRIKE
 
+30 May: moving to windows - asking Roi for permissions
 
 
