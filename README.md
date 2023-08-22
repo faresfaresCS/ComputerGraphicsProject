@@ -42,7 +42,9 @@ This component manages state information received from the Tello drone, providin
 ### Drone Controller
 
 Integrates the Tello drone's original SDK with hand tracking or Oculus controller input for intuitive drone control.
-Found at: Scripts/DroneEnums.cs
+
+
+Can be found at: Scripts/DroneEnums.cs
 
 ********
 The primary goal of the project would be to create a system that allows a user to control a drone using a virtual reality headset. Here are some of the essential steps involved in such a project:
