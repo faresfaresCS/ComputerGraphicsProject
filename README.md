@@ -10,35 +10,38 @@ Body motion based drone teleoperation using virtual reality has numerous applica
 
 Overall, this technology represents a significant advancement in drone control and has the potential to revolutionize the way drones are used in a variety of industries.
 
-********
-Architecture
-The project is built upon three main components:
+## Architecture
 
-Unity: The Unity game engine serves as the foundation for creating the VR environment and integrating the Tello drone control mechanisms.
+The project consists of three main components:
 
-Oculus: The Oculus VR headset delivers an immersive experience, allowing users to interact with the drone using their head movements and potentially Oculus controllers.
+1. Unity
+2. Oculus
+3. Tello Drone
 
-Tello Drone: The Tello drone is equipped with a UDP server that enables communication between the Unity environment and the drone. The connection is established via WiFi (SSID).
+## How it Works
 
-How it Works
-Tello Drone
-The Tello drone is equipped with a UDP server that allows communication between the drone and external devices. In our project, we establish a connection between the drone and the Oculus headset via WiFi.
+### Tello Drone
 
-Unity Drone Client
-The core functionality of controlling the Tello drone lies within the Unity environment. We implement a multi-threaded "Drone Client" responsible for both sending commands to the drone and receiving real-time state and data from the drone. This client consists of the following components:
+The Tello drone is equipped with a UDP server that allows communication with external devices via WiFi (SSID).
 
-Main Thread: This thread handles the transmission of commands to the Tello drone. By sending appropriate commands, we can control the drone's flight, direction, and other behaviors.
+### Unity Drone Client
 
-Receiving Thread: The receiving thread continuously gathers state information and data from the drone. This information could include details about the drone's battery level, altitude, velocity, and more.
+The Unity Drone Client has two main threads:
 
-Drone Pilot Overlay
-To enhance the user experience, we introduce a C# script that acts as a singleton called the "Drone Pilot Overlay." This script leverages the capabilities of the Oculus Quest headset to provide users with a real-world view through the drone's camera. Users can experience the drone's perspective as if they were onboard the drone itself.
+- Main Thread: Sends commands to the drone for control.
+- Receiving Thread: Receives real-time state and data from the drone.
 
-Drone State Manager
-The Drone State Manager is responsible for collecting and managing the state information received from the Tello drone. This information can include telemetry data, such as GPS coordinates, altitude, battery status, and more. By keeping track of the drone's state, we ensure that users have accurate and up-to-date information during their piloting experience.
+### Drone Pilot Overlay
 
-Drone Controller
-The heart of the project lies in the Drone Controller. This component integrates the Tello drone's original SDK with control mechanisms from either hand tracking or Oculus controllers. This integration enables users to intuitively control the drone's movements using their hands or the Oculus controllers, providing a seamless and immersive piloting experience.
+A C# script, acting as a singleton, provides a real-world view through the Oculus Quest headset, enhancing the piloting experience.
+
+### Drone State Manager
+
+This component manages state information received from the Tello drone, providing accurate telemetry data to users.
+
+### Drone Controller
+
+Integrates the Tello drone's original SDK with hand tracking or Oculus controller input for intuitive drone control.
 
 ********
 The primary goal of the project would be to create a system that allows a user to control a drone using a virtual reality headset. Here are some of the essential steps involved in such a project:
